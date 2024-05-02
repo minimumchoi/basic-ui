@@ -1,29 +1,50 @@
 @import url("https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100..900&display=swap");
 
+
+
 body {
   font-family: "Noto Sans KR", sans-serif;
 }
 
+.header, .visual, .footer-inner, .main, .slogan {
+  width: 940px;
+  margin: 0 auto;
+}
+
+
 /* 헤더 */
 .header{
   background-color: yellow;
-  width: 940px;
+  height: 10vh;
 }
 /* 비주얼 */
 .visual{
   background-color: pink;
-  inline-size: 940px;
-  /* inline-size == width 인가...? */
+  height: 10vh;
 }
+
+.group {
+  border: 1px solid red;
+}
+
 /* 메인 콘텐츠 */
 .main{
   background-color: skyblue;
+  height: 60vh;
+  display: flex;
 }
 /* 슬로건 */
 .slogan{
   background-color: lime;
+  height: 10vh;
 }
 /* 푸터 */
 .footer{
   background-color: orange;
 }
+
+.footer-inner{
+  background-color: yellow;
+  height: 10vh;
+}
+
